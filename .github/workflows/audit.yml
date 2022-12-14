@@ -1,7 +1,7 @@
 name: Audit
 
 on:
-  push:
+  merge-request:
     branches: [main]
   pull_request:
     branches: [main]
